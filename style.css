@@ -1,0 +1,119 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding:0;
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+}
+
+.title{
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-weight: 550; 
+  font-weight: bold;
+}
+
+h1{
+  font-family: 'Libre Franklin', sans-serif;
+  padding-top: 2vh;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.overlay {
+  font-family: 'Libre Franklin', sans-serif;
+  margin-top: 0;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  font-weight: 400;
+  height: auto;
+  padding: 5% 5%;
+  border-radius: 10px;
+}
+.navbar-nav{
+  margin-right: 5%;
+  
+}
+
+.materialsLink{
+  font-family: Libre Franklin;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
+
+.materialsLink:hover{
+  color: black;
+}
+.image {
+  width: 40vh;
+  margin-bottom: 2vh;
+}
+
+.navbar-brand{
+  margin-left: 5%;
+  font-family: Libre Franklin;
+}
+
+.nav-link{
+  font-family: Libre Franklin;
+  font-weight: 500;
+  
+}
+
+.index{
+  height: auto;
+}
+
+.right {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+/* .donate {
+} */
+
+.butt {
+  border-radius: 5px;
+  background-color: white;
+  width: auto;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 3vh;
+  padding-right: 3vh;
+  font-size: 120%;
+  margin: 2.5vh;
+}
+
+.center{
+  text-align: center;
+}
+.money {
+  font-size: 200%;
+  color: rgb(59, 140, 151);
+  margin-bottom: 2vh;
+}
+
+.raised {
+  font-weight: bold;
+  font-size: 110%;
+}
+
+.percent {
+  margin:0 !important;
+  padding:5%;
+  font-weight:bold;
+}
+
+.cool {
+  color: rgb(0, 0, 0, 0);
+}
